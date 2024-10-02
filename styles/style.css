@@ -1,1 +1,396 @@
 /* место для вашего кода */
+.upper_text {
+    text-transform: uppercase; 
+}
+
+.border-bottom {
+    border-bottom: 1px rgb(0, 0, 0) solid;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0 0 0 / 0.6); /* для затемнения заднего фона */
+}
+
+.black_theme {
+    color: white; /* используется при наложении оверлея */
+}
+
+.header {
+    border: 1px solid black;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 1052px;
+    height: 105px;
+    margin: 92px 24px 96px 24px;
+
+}
+
+.header__menu {
+    width: 100%;
+}
+
+.header__links-list {
+    display: flex;
+    justify-content: space-evenly; 
+    width: 100%; 
+    height: 100%;
+    list-style: circle;
+}
+
+.header__link {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.13px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.header__logo{
+    height: 100%;
+    width: 148px;
+    text-align: center;
+}
+
+
+
+.header__logo_link {
+    width: 100%;
+    height: 100%;
+}
+
+.header__logo-image {
+    margin: auto;
+    height: 105px;
+    width: 148px;
+}
+
+.header__contacts {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+}
+
+.header__address {
+    height: 100%;
+    width: 100%;
+    margin-left: 184px;
+    margin-top: 10px;
+}
+
+.header__contacts-link {
+    font-size: 18px;
+    line-height: 24.3px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+}
+
+.address {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 24.3px;
+    width: 240px;
+}
+
+
+.cover {
+    position: relative;
+    background-image: url(/images/cover.jpg);
+    background-size: cover;
+    height: 757px;
+    width: 100%;
+    margin-bottom: 179px;
+}
+
+.cover__title {
+    font-size: 100px;
+    line-height: 115px;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    text-align: left;
+}
+
+.letter-spacing__0-6em {
+    letter-spacing: 0.6em;
+    }
+
+#ono {
+    position: absolute;
+    top: 165px;
+    left: 50px;
+}
+
+#tebe {
+    position: absolute;
+    top: 300px;
+    left: 336px;
+    line-height: 100px;
+}
+
+#nado {
+    position: absolute;
+    top: 420px;
+    left: 633px;
+    line-height: 100px;
+}
+
+
+
+#word-space__0-9em {
+    word-spacing: 0.9em;
+}
+
+#word-space__0-8em {
+    word-spacing: 0.8em;
+}
+
+#v {
+    letter-spacing: 1.1em;
+}
+
+.cover__description {
+    display: flex;
+    align-items: center;
+    gap: 79px;
+    position: absolute;
+    bottom: 51px;
+    left: 78px;
+}
+
+.cover__text-subline {
+    font-size: 22px;
+    line-height: 28px;
+    text-align: left;
+}
+
+.сover__button {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 25.83px;
+    padding: 12px 32px;
+    border: 1px white solid;
+    background: transparent;
+}
+
+.lots {
+    height: 692px;
+    width: 1052px;
+    margin: auto;
+}
+
+.lots__title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46.96px;
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 27px;
+}
+
+.lots__card-list {
+    width: 100%;
+    height: 563px;
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+.lots__card-list-item {
+    list-style: none;
+    height: 563px;
+    width: 334px;
+    
+}
+
+.card {
+    position: relative;
+}
+
+.card__title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26.4px;
+    margin: 0 40px;
+    padding-top: 51px;
+}
+
+.card__text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    position: absolute;
+    bottom: 48px;
+    margin: 0 40px;
+}
+
+.card_type_film {
+    height: 100%;
+    background-image: url(/images/card-lot-01.jpg);
+    background-position: center;
+}
+
+.card_type_book {
+    height: 100%;
+    background-image: url(/images/card-lot-02.jpg);
+    background-position: center;
+
+}
+
+.card_type_picture {
+    height: 100%;
+    background-image: url(/images/card-lot-03.jpg);
+    background-position: center;
+}
+
+#dots {
+    letter-spacing: 0.13em;
+}
+
+.lots__look-more-link {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.48px;
+    margin-left: 40px;
+}
+
+.about {
+    width: 1052px;
+    margin: auto;
+    margin-top: 146px;
+    margin-bottom: 180px;
+}
+
+.about__column {
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto 693px;
+}
+
+.about__logo{
+    width: 240px;
+    height: 240px;
+    background-color: black;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    margin-left: 47px;
+}
+
+.about__logo-image {
+    width: 148px;  
+}
+
+.about__information {
+    margin-top: 133px;
+}
+
+.about__title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46.96px;
+    margin-top: 3px;
+    margin-bottom: 100px;
+    
+}
+
+.about__text {
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 2px;
+    text-align: left;
+
+}
+
+.margin_paragraph {
+    margin-bottom: 24px;
+}
+
+#letter-spacing {
+    letter-spacing: 0.01em;
+}
+
+
+
+#nashi {
+letter-spacing: 0.02em;
+}
+
+#pafosnoe_sobranie {
+    letter-spacing: 0;
+}
+
+#bili_popast {
+letter-spacing: -0.01em;
+}
+
+#dnevnik {
+    letter-spacing: 0.03em;
+}
+
+#oni {
+letter-spacing: 0.04em;
+}
+
+#neudachnimi {
+letter-spacing: 0.01em;
+}
+
+.footer {
+    display: flex; 
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 88px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.footer__contacts {
+    text-align: left;
+    width: 100%;
+}
+
+.footer__menu {
+    width: 100%;
+}
+
+.footer__links-list {
+    width: 100%;
+    list-style: none;
+}
+
+.footer__link {
+    font-size: 18px;
+    line-height: 21.13px;
+    text-align: center;
+}
+
+.header__link__active, .footer__link__active {
+    list-style: none;
+}
+
+
+.footer__social-list {
+    display: flex; 
+    justify-content: right; 
+    gap: 48px; 
+    width: 100%; 
+    height: 48px;
+    list-style: none;
+}
+
+
+.footer__social-icon {
+    height: 100%;
+}
