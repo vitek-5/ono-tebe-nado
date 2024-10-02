@@ -1,1 +1,0 @@
-https://github.com/vitek-5/ono-tebe-nado
