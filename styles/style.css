@@ -41,14 +41,17 @@
   height: 100%;
 }
 
+.footer__links-list-item,
 .header__links-list-item {
   list-style: circle;
 }
 
+.footer__links-list-item,
 .header__links-list-item__active {
   list-style: none;
 }
 
+.footer__link,
 .header__link {
   font-size: 18px;
   font-weight: 400;
@@ -76,12 +79,6 @@
   font-style: normal;
 }
 
-.footer__address,
-.header__address {
-  height: 100%;
-  width: 100%;
-}
-
 .header__address_margin {
   margin-left: 184px;
   margin-right: 50px;
@@ -100,6 +97,7 @@
   width: 100%;
   margin-bottom: 179px;
   background-position: center;
+  background-size: cover;
 }
 
 .cover__title {
@@ -152,7 +150,7 @@
 }
 
 .сover__button {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 22px;
   font-weight: 500;
   line-height: 25.83px;
@@ -189,10 +187,15 @@
 }
 
 .card {
-  position: relative;
   height: 100%;
   background-position: center;
   background-size: cover;
+}
+
+.card__align {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card__title {
@@ -200,15 +203,14 @@
   font-weight: 700;
   line-height: 26.4px;
   margin: 0 40px;
-  padding-top: 51px;
+  margin-top: 51px;
 }
 
 .card__text {
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
-  position: absolute;
-  bottom: 48px;
+  padding-bottom: 48px;
   margin: 0 40px;
 }
 
@@ -284,31 +286,7 @@
   margin-bottom: 24px;
 }
 
-#letter-spacing {
-  letter-spacing: 0.01em;
-}
-
-#nashi {
-  letter-spacing: 0.02em;
-}
-
-#pafosnoe_sobranie {
-  letter-spacing: 0;
-}
-
-#bili_popast {
-  letter-spacing: -0.01em;
-}
-
-#dnevnik {
-  letter-spacing: 0.03em;
-}
-
-#oni {
-  letter-spacing: 0.04em;
-}
-
-#neudachnimi {
+.letter-spacing {
   letter-spacing: 0.01em;
 }
 
@@ -321,9 +299,9 @@
   text-align: center;
 }
 
-.footer__address {
+.footer__address__margin {
   width: 100%;
-  margin-right: 50px;
+  margin-right: 100px;
 }
 
 .footer__contacts {
